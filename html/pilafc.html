@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/pilafc.css">
+    <title>Pila con funciones constructoras</title>
+</head>
+<body>
+    <main>
+<header>
+    PILAS CON FUNCIONES CONSTRUCTORAS
+</header>
+
+<section class="metodos">
+    <section class="push">
+        <a title="Agrega un nuevo valor a la pila, ubicándolo al final de ésta. ">  <h1>PUSH</h1></a> 
+            <input type="text" id="push" placeholder ="inserte dato">
+            <input type="button" onclick="Push()" id="b_push"> 
+    </section>
+    <section class="pop">
+        <a title="Retorna el último valor ingresado a la pila, sacándolo de ésta.  "><h1>POP</h1></a> 
+        <input type="button" onclick="Pop()" >
+    </section>
+    <section class="peek">
+        <a title="Retorna el último valor ingresado a la pila, sin sacarlo de ésta.  "><h1>PEEK</h1></a> 
+        <input type="button" onclick="Peek()" id="b_peek">
+    </section>
+    <section class="size">
+        <a title="Retorna el número de elementos que contiene la pila. "><h1>SIZE</h1></a> 
+        <input type="button" onclick="Size()" id="b_size">
+    </section>
+    <section class="print">
+        <a title="Muestra el contenido de la pila.  "><h1>PRINT</h1></a> 
+        <input type="button" onclick="Print()" id="b_print">
+    </section>
+</section>
+<section class="cuerpo" id="cuerpo"></section>
+<section></section>
+<section class="info">
+<section class="texto"><h1>Una pila (stack en inglés) es una estructura de datos lineal que solo tienen un único punto de acceso fijo por el cual se añaden, eliminan o se consultan elementos. El modo de acceso a los elementos es de tipo LIFO (del inglés Last In First Out, último en entrar, primero en salir).</h1></section>
+</section>
+
+    </main>
+    <script src="../js/pilafc.js"></script>
+</body>
+</html>

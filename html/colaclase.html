@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/colaclase.css">
+    <title>Colas con clases</title>
+</head>
+<body>
+    <main>
+<header>
+    COLAS CON CLASES
+</header>
+
+<section class="metodos">
+    <section class="enqueue">
+        <a title="Agrega un nuevo elemento a la cola, situándolo al final de ésta."><h1>ENQUEUE</h1></a> 
+            <input type="text" id="enqueue" placeholder ="inserte dato">
+            <input type="button" onclick="Enqueue()" id="b_enqueue"> 
+    </section>
+    <section class="dequeue">
+        <a title="Retorna el primer elemento de la cola, quitándolo de ésta."><h1>DEQUEUE</h1></a> 
+        <input type="button" onclick="Dequeue()" >
+    </section>
+    <section class="peek">
+        <a title="Retorna el primer elemento de la cola, sin quitarlo de ésta.  "><h1>PEEK</h1></a> 
+        <input type="button" onclick="Peek()" id="b_peek">
+    </section>
+    <section class="size">
+        <a title="Retorna el número de elementos que contiene la pila. "><h1>SIZE</h1></a> 
+        <input type="button" onclick="Size()" id="b_size">
+    </section>
+    <section class="print">
+        <a title="Muestra el contenido de la pila.  "><h1>PRINT</h1></a> 
+        <input type="button" onclick="Print()" id="b_print">
+    </section>
+</section>
+<section class="cuerpo" id="cuerpo"></section>
+<section></section>
+
+<section class="info">
+<section class="texto"><h1>Una cola es una estructura de datos muy similar a una Pila, es decir, también opera de forma lineal y unidireccional (se agregan elementos de inicio a fin). primer elemento que agreguemos, será el primero que saquemos de ella. </h1></section>
+</section>
+
+    </main>
+    <script src="../js/colaclase.js"></script>
+</body>
+</html>
